@@ -17,6 +17,8 @@ BIP44 定义了一种统一的 HD 钱包结构，用于支持多种加密货币�
 - change：表示是否为找零地址，0 表示接收地址，1 表示找零地址。
 - address_index：表示地址的索引。
 
+当前已经定义的 [cointype](https://trustwallet.github.io/docc/documentation/walletcore/cointype/)
+
 ### 代码结构
 - wordlist.txt：BIP39 英文单词表，用于生成助记词。
 - HD.py：主要代码文件，包含了助记词生成、密钥派生、地址生成等功能的实现。
